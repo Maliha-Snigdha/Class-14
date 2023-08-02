@@ -1,0 +1,46 @@
+#division1{
+   height: 200px;
+    background-color: aquamarine;
+    background-size: 300px 200px, 300px 200px, 300px 200px;
+    background-image: url(Flower.jpg), url(OIG.jpg), url(camera.jpeg);
+    background-repeat: no-repeat ;
+    background-position: 0px 0px, 300px 0px , 600px 0px;
+}
+#division2{
+    border: 10px dotted black;
+    background-color: aqua;
+    background-clip: padding-box;
+    padding: 20px;
+
+}
+#division3{
+    border: 10px dotted black;
+    background-color: aqua;
+    background-clip: content-box;
+    padding: 20px;
+
+}
+#division4{
+    height: 200px;
+    width: 400px;
+    border: 4px solid rgb(160, 14, 160);
+}
+.div4 p{
+    border: 2px solid rgb(203, 128, 193);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+#division5{
+    height: 200px;
+    width: 200px;
+    border: 4px solid blueviolet;
+    margin: auto;
+}
+.child{
+    border: 2px dotted;
+    height: 150px;
+    width: 70px;
+    margin: auto;
+    margin-top: 20;
+}
